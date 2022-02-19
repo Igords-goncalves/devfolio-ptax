@@ -15,28 +15,32 @@
 
 <body>
     <header>
-        <div id="bank" class="container">
+        <div id="bank" class="container" >
             <img src="./assets/img/banco-inter-logo.svg" alt="Logo principal do banco Inter">
             <i class="fas fa-sort-down fa-2x" inter-logo-2x></i>
         </div>
     </header>
 
     <main>
-        <div id="currency" class="container">
+        <div id="currency" class="container" form>
             <h2>Valor em dólar $</h2>
             <input class="one-line-input" type="numer" value="0" />
         </div>
-        <div id="ptax" class="container">
-            
+        <div id="ptax" class="container" form>
+            <h2>Dólar PTAX</h2>
+            <input class="one-line-input" type="numer" value="0" />
         </div>
-        <div id="iof" class="container">
-            
+        <div id="iof" class="container" form>
+            <h2>IOF (%)</h2>
+            <input class="one-line-input" type="numer" value="0" />
         </div>
-        <div id="spread" class="container">
-            
+        <div id="spread" class="container" form>
+            <h2>Spread (%)</h2>
+            <input class="one-line-input" type="numer" value="0" />
         </div>
-        <div id="result" class="container">
-            
+        <div id="result" class="container" form>
+            <p>* Informações oficiais de spread</p>
+            <span>R$ 0,00</span> <!--Replace , to . in javascript-->
         </div>
     </main>
 

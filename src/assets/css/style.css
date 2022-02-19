@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&family=Source');
 
 :root {
     --main-bg-color: #ff7a00;
     --font-color: #050506;
-    --main-font: 'Source Sans Pro', sans-serif;
+    --main-font: 'Public Sans', sans-serif;
 }
 
 * {
@@ -37,6 +37,7 @@ header {
 
 [inter-logo-2x] {
     color: var(--font-color);
+    cursor: pointer;
 }
 
 #bank > img {
@@ -50,9 +51,53 @@ input:nth-of-type(1)  {
     background:transparent;
     padding:8px 0 5px 0;
 
+    max-width: 285px;
+
     font-family: var(--main-font);
     font-size: 2rem;
     font-weight: 600;
 
     outline: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container[form] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin: 30px 0 0 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    /* font-weight: 500; */
+}
+
+h2, input {
+    margin: 0 0 8px 0;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: var(--main-font);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+span {
+    font-size: 3em;
+    font-weight: bold;
+
+    margin: 60px;
 }
