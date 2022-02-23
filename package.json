@@ -1,0 +1,14 @@
+{
+  "name": "ptax-inter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/Igords-goncalves/devfolio-ptax",
+  "author": "--global <--global>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "currency.js": "^2.0.4"
+  }
+}
